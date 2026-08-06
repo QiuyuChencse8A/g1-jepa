@@ -1,0 +1,66 @@
+# Unitree / Isaac simulation assets
+unitree_sim_isaaclab/
+
+# Large simulation files
+*.usd
+*.usda
+*.mesh
+*.png
+*.jpg
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Environment
+.env
+.venv/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store# python
+__pycache__/
+*.pyc
+
+# conda
+.env
+.venv/
+
+# checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# large files
+*.zip
+*.tar
+*.tar.gz
+
+# simulation assets
+assets/
+*.usd
+*.usda
+*.mesh
+
+# logs
+logs/
+runs/
+wandb/
+
+# vscode
+.vscode/
+
+# OS
+.DS_Store
+
