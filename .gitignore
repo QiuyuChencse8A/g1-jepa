@@ -64,3 +64,11 @@ wandb/
 # OS
 .DS_Store
 
+vjepa2/
+vjepa2/
+unitree_sim_isaaclab/
+cyclonedds-core/
+unitree_sdk2_python/
+exp/data/
+exp/*.png
+exp/*.log

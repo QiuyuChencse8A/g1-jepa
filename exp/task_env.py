@@ -115,13 +115,13 @@ class PerturbationScheduler:
       - 不同 episode 的扰动都落在同一个任务相位, 第二周算相位归一化阈值时省事
     """
 
-    def __init__(self, fire_state="DESCEND", delay_steps=3, min_step=10,
+    def __init__(self, fire_state="DESCEND", delay_range=(2, 12), min_step=10,
                  enabled=True, rng=None, mag_range=(0.05, 0.10)):
         self.fire_state = fire_state
-        self.delay_steps = delay_steps
         self.min_step = min_step
         self.enabled = enabled
         self.rng = rng if rng is not None else np.random.default_rng()
+        self.delay_steps = int(self.rng.integers(delay_range[0], delay_range[1]))
         self.mag_range = mag_range
         self.fired = False
         self.fire_step = None
@@ -144,6 +144,18 @@ class PerturbationScheduler:
         self.fire_step = step
         return True
 
+def is_grasping(env):
+    """夹爪是否真的夹住了物体。"""
+    try:
+        return bool(env._check_grasp(
+            gripper=env.robots[0].gripper["right"],
+            object_geoms=env.cube,
+        ))
+    except Exception:
+        w = abs(env.sim.data.get_joint_qpos("gripper0_right_finger_joint1")) \
+            + abs(env.sim.data.get_joint_qpos("gripper0_right_finger_joint2"))
+        return 0.008 < w < 0.038
+
 
 if __name__ == "__main__":
     env = make_env(use_camera_obs=False)
@@ -160,14 +172,14 @@ if __name__ == "__main__":
 
     print("\n--- 扰动自检: 张开夹爪下落 60 步, 途中触发一次 ---")
     rng = np.random.default_rng(0)
-    sched = PerturbationScheduler(enabled=perturb, rng=rng)
+    sched = PerturbationScheduler(enabled=True, rng=rng)
     for t in range(60):
         a = np.zeros(7)
         a[2] = -0.3      # 缓慢下降
         a[-1] = -1.0     # 夹爪张开
         env.step(a)
         eef, obj = get_eef_pos(env), get_object_pos(env)
-        if sched.maybe_fire(env, t, eef, obj, "APPROACH"):
+        if sched.maybe_fire(env, t, eef, obj, "DESCEND"):
             print(f"[t={t}] 扰动! delta={np.round(sched.delta, 4)} "
                   f"新位置={np.round(sched.new_pos, 4)}")
         if t % 10 == 0:
@@ -176,3 +188,6 @@ if __name__ == "__main__":
 
     env.close()
     print("\n若看到 cube 的 xy 出现 5-10cm 跳变, 扰动 hook 就成了。")
+
+
+

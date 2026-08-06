@@ -20,14 +20,16 @@ run_episode.py —— 脚本策略 + 四组条件的统一 runner
 
 import os
 import argparse
-
 os.environ.setdefault("MUJOCO_GL", "egl")
 
 import numpy as np
 
+import logging
+logging.getLogger("robosuite_logs").setLevel(logging.ERROR)
+
 from task_env import (
     make_env, get_object_pos, get_eef_pos, world_to_base,
-    PerturbationScheduler, ACTION_SCALE,
+    PerturbationScheduler, ACTION_SCALE, is_grasping
 )
 
 
@@ -45,12 +47,13 @@ class ScriptedPickPlace:
     LIFT_H = 0.18        # 抓起后抬升
 
     def __init__(self, kp=10.0, hover_thresh=0.02, descend_thresh=0.008,
-                 grasp_steps=15, lift_thresh=0.05):
+                 grasp_steps=15, lift_thresh=0.05, retreat_thresh=0.02):
         self.kp = kp
         self.hover_thresh = hover_thresh
         self.descend_thresh = descend_thresh
         self.grasp_steps = grasp_steps
         self.lift_thresh = lift_thresh
+        self.retreat_thresh = retreat_thresh
         self.reset()
 
     def reset(self):
@@ -61,9 +64,12 @@ class ScriptedPickPlace:
         self.replan_steps = []
 
     def replan(self, env, step=None, count=True):
-        self.target = get_object_pos(env).copy()
-        if self.state in ("APPROACH", "DESCEND"):
-            self.state = "APPROACH"          # 退回接近阶段重新对准
+        new_target = get_object_pos(env).copy()
+        moved = (self.target is None) or \
+                (np.linalg.norm(new_target[:2] - self.target[:2]) > self.retreat_thresh)
+        self.target = new_target
+        if moved and self.state in ("APPROACH", "DESCEND"):
+            self.state = "APPROACH"       # 只有目标真的移动了才退回重新对准
             self.grasp_counter = 0
         if count:
             self.n_replans += 1
@@ -78,6 +84,11 @@ class ScriptedPickPlace:
         return np.array([cmd_base[0], cmd_base[1], cmd_base[2], 0., 0., 0., grip])
 
     def act(self, env):
+        # 抓空了就中止重试。注意: 不刷新 self.target,
+        # 否则 no_replan 相当于免费重规划, 对照组就失效了。
+        if self.state in ("LIFT", "DONE") and not is_grasping(env):
+            self.state = "APPROACH"
+            self.grasp_counter = 0
         eef = get_eef_pos(env)
         if self.target is None:
             self.replan(env, count=False)
@@ -136,7 +147,6 @@ def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
     trigger_step = None
     success = False
     t = 0
-
     for t in range(max_steps):
         eef = get_eef_pos(env)
         obj = get_object_pos(env)
@@ -226,20 +236,27 @@ def main():
         env.close()
         return
 
-    print(f"{'条件':<12s}{'扰动成功率':>10s}{'无扰动成功率':>12s}"
-          f"{'触发延迟':>10s}{'重规划次数':>12s}")
-    print("-" * 60)
+    print(f"{'cond':<12s}{'SR_pert':>10s}{'SR_clean':>12s}"
+          f"{'latency':>10s}{'replans':>12s}{'replans_clean':>14s}{'steps':>12s}")
+    print("-" * 80)
     for cond in ["no_replan", "fixed", "oracle"]:
         rp = [run_episode(env, cond, seed=s, perturb=True, policy_kwargs=pk)
               for s in range(args.n)]
         rc = [run_episode(env, cond, seed=1000 + s, perturb=False, policy_kwargs=pk)
               for s in range(args.n)]
-        sr_p = np.mean([r["success"] for r in rp])
+        fired = [r for r in rp if r["perturbed"]]
+        sr_p = np.mean([r["success"] for r in fired]) if fired else float("nan")
         sr_c = np.mean([r["success"] for r in rc])
-        lats = [r["trigger_latency"] for r in rp if r["trigger_latency"] is not None]
+        lats = [r["trigger_latency"] for r in fired if r["trigger_latency"] is not None]
+        if len(fired) < len(rp):
+            print(f"  (注意: {len(rp)} 条里只有 {len(fired)} 条真正触发了扰动)")
         lat = np.mean(lats) if lats else float("nan")
         nrp = np.mean([r["n_replans"] for r in rp])
-        print(f"{cond:<12s}{sr_p:>10.2f}{sr_c:>12.2f}{lat:>10.1f}{nrp:>12.1f}")
+        succ = [r for r in fired if r["success"]]
+        tsec = np.mean([r["steps"] for r in succ]) if succ else float("nan")
+        nrp_clean = np.mean([r["n_replans"] for r in rc])   # 无扰动时的重规划次数 = 纯浪费
+        print(f"{cond:<12s}{sr_p:>10.2f}{sr_c:>12.2f}{lat:>10.1f}"
+              f"{nrp:>12.1f}{nrp_clean:>14.1f}{tsec:>12.1f}")
 
     env.close()
     print("\n期望: no_replan 扰动后接近 0 而无扰动很高; oracle 扰动后最高且延迟=0;")
