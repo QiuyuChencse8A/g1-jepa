@@ -49,6 +49,7 @@ def make_env(img_size=128, cameras=("agentview", "robot0_eye_in_hand"),
         horizon=horizon,
         reward_shaping=False,
         ignore_done=True,
+        initialization_noise=None
     )
 
 

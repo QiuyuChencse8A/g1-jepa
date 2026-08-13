@@ -20,6 +20,7 @@ run_episode.py —— 脚本策略 + 四组条件的统一 runner
 
 import os
 import argparse
+import json
 os.environ.setdefault("MUJOCO_GL", "egl")
 
 import numpy as np
@@ -62,6 +63,8 @@ class ScriptedPickPlace:
         self.grasp_counter = 0
         self.n_replans = 0
         self.replan_steps = []
+        self.phase_step = 0
+        self._prev_state = None
 
     def replan(self, env, step=None, count=True):
         new_target = get_object_pos(env).copy()
@@ -89,6 +92,10 @@ class ScriptedPickPlace:
         if self.state in ("LIFT", "DONE") and not is_grasping(env):
             self.state = "APPROACH"
             self.grasp_counter = 0
+
+        self.phase_step = self.phase_step + 1 if self.state == self._prev_state else 0
+        self._prev_state = self.state
+
         eef = get_eef_pos(env)
         if self.target is None:
             self.replan(env, count=False)
@@ -131,12 +138,15 @@ class ScriptedPickPlace:
 def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
                 fixed_period=20, collect_images=False, jepa_trigger=None,
                 debug=False, policy_kwargs=None):
+    env.placement_initializer.rng = np.random.default_rng(seed)   # 替换掉 np.random.seed(seed)
     rng = np.random.default_rng(seed)
     env.deterministic_reset = False
     obs = env.reset()
 
     policy = ScriptedPickPlace(**(policy_kwargs or {}))
     policy.replan(env, count=False)
+    if jepa_trigger is not None:
+        jepa_trigger.reset()
 
     sched = PerturbationScheduler(enabled=perturb, rng=rng)
 
@@ -165,7 +175,7 @@ def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
         elif condition == "oracle":
             do_replan = fired
         elif condition == "jepa":
-            do_replan = bool(jepa_trigger(t, env, obs)) if jepa_trigger else False
+            do_replan = bool(jepa_trigger(t, env, policy)) if jepa_trigger else False
         else:
             raise ValueError(condition)
 
@@ -206,8 +216,11 @@ def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
                            if (trigger_step is not None and sched.fire_step is not None) else None,
         "n_replans": policy.n_replans, "replan_steps": policy.replan_steps,
         "final_state": policy.state,
+        "z_log": (list(jepa_trigger.z_log) if jepa_trigger is not None else None),
+        "dbg_log": (list(jepa_trigger.dbg_log) if jepa_trigger is not None else None),
         "log": {k: (v if k == "state" else np.array(v)) for k, v in log.items()},
         "frames": frames,
+        "perturb_delay": sched.delay_steps,
     }
 
 
@@ -216,10 +229,38 @@ def main():
     ap.add_argument("--debug", action="store_true", help="单条 episode 详细输出")
     ap.add_argument("--n", type=int, default=20, help="每组条件的 episode 数")
     ap.add_argument("--kp", type=float, default=10.0)
+    ap.add_argument("--jepa", action="store_true")
+    ap.add_argument("--calib", default="calib_f16s1_wrist_grid_k1.json")
+    ap.add_argument("--kappa", type=float, default=2.5)
+    ap.add_argument("--consec", type=int, default=2)
+    ap.add_argument("--seed0", type=int, default=0, help="perturbed 起始 seed")
+    ap.add_argument("--device", default="cuda:5")
     args = ap.parse_args()
 
+
     env = make_env(use_camera_obs=False)
+    trig = None
+    conds = ["no_replan", "fixed", "oracle"]
+    if args.jepa:
+        from jepa_trigger import OnlineJepaTrigger
+        env.has_offscreen_renderer = True
+        trig = OnlineJepaTrigger(args.calib, kappa_high=args.kappa,
+                                 consec=args.consec, device=args.device)
+        conds.append("jepa")
+    env.has_offscreen_renderer = True
     pk = {"kp": args.kp}
+
+
+    # ↓↓↓ 新加的在这里 ↓↓↓
+    trig = None
+    conds = ["no_replan", "fixed", "oracle"]
+    if args.jepa:
+        from jepa_trigger import OnlineJepaTrigger
+        env.has_offscreen_renderer = True
+        trig = OnlineJepaTrigger(args.calib, kappa_high=args.kappa,
+                                 consec=args.consec, device=args.device)
+        conds.append("jepa")
+    # ↑↑↑ 新加的到这里 ↑↑↑
 
     if args.debug:
         print("=== 无扰动 (先确认脚本策略本身能抓起来) ===")
@@ -235,14 +276,15 @@ def main():
               f"扰动步={r['perturb_step']}  重规划={r['n_replans']} 次")
         env.close()
         return
-
+    os.makedirs("results", exist_ok=True)
+    all_res = {}
     print(f"{'cond':<12s}{'SR_pert':>10s}{'SR_clean':>12s}"
           f"{'latency':>10s}{'replans':>12s}{'replans_clean':>14s}{'steps':>12s}")
     print("-" * 80)
-    for cond in ["no_replan", "fixed", "oracle"]:
-        rp = [run_episode(env, cond, seed=s, perturb=True, policy_kwargs=pk)
+    for cond in conds:
+        rp = [run_episode(env, cond, seed=args.seed0 + s, perturb=True, policy_kwargs=pk, jepa_trigger=trig)
               for s in range(args.n)]
-        rc = [run_episode(env, cond, seed=1000 + s, perturb=False, policy_kwargs=pk)
+        rc = [run_episode(env, cond, seed=args.seed0 + 10000 + s, perturb=False, policy_kwargs=pk, jepa_trigger=trig)
               for s in range(args.n)]
         fired = [r for r in rp if r["perturbed"]]
         sr_p = np.mean([r["success"] for r in fired]) if fired else float("nan")
@@ -255,9 +297,25 @@ def main():
         succ = [r for r in fired if r["success"]]
         tsec = np.mean([r["steps"] for r in succ]) if succ else float("nan")
         nrp_clean = np.mean([r["n_replans"] for r in rc])   # 无扰动时的重规划次数 = 纯浪费
+
         print(f"{cond:<12s}{sr_p:>10.2f}{sr_c:>12.2f}{lat:>10.1f}"
               f"{nrp:>12.1f}{nrp_clean:>14.1f}{tsec:>12.1f}")
 
+        all_res[cond] = {
+            "perturbed": [{k: v for k, v in r.items() if k not in ("log", "frames")} for r in rp],
+            "clean":     [{k: v for k, v in r.items() if k not in ("log", "frames")} for r in rc],
+        }
+
+    def _ser(o):
+        if isinstance(o, np.ndarray):
+            return o.tolist()
+        if isinstance(o, (np.integer, np.floating, np.bool_)):
+            return o.item()
+        return str(o)
+
+    fn = f"results/closed_loop_s{args.seed0}_k{args.kappa}_c{args.consec}.json"
+    json.dump(all_res, open(fn, "w"), indent=1, default=_ser)
+    print(f"已保存 {fn}")
     env.close()
     print("\n期望: no_replan 扰动后接近 0 而无扰动很高; oracle 扰动后最高且延迟=0;")
     print("      fixed 居中但重规划次数远多于 oracle。")

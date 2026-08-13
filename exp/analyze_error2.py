@@ -27,6 +27,7 @@ analyze_error2.py —— Day 7 修订版
 import os
 import glob
 import argparse
+import json
 
 import numpy as np
 
@@ -117,11 +118,13 @@ def first_run(z, kappa, consec, start_idx=0):
     return None
 
 
-def evaluate(pert, clean, name, k, metric, kappas, consec, warmup, fine=True):
+def evaluate(pert, clean, name, k, metric, kappas, consec, warmup, fine=True,
+             clean_test=None):
     mu, sd, gmu, gsd = calibrate(clean, name, k, metric, warmup, fine)
 
+    fp_pool = clean_test if clean_test is not None else clean
     fp = {kp: 0 for kp in kappas}
-    for ep in clean:
+    for ep in fp_pool:
         z = zscores(ep, name, k, metric, mu, sd, gmu, gsd, warmup, fine)
         for kp in kappas:
             if first_run(z, kp, consec) is not None:
@@ -143,7 +146,7 @@ def evaluate(pert, clean, name, k, metric, kappas, consec, warmup, fine=True):
         rows.append({
             "kappa": kp,
             "detect": float(ok.mean()),
-            "fp": fp[kp] / max(1, len(clean)),
+            "fp": fp[kp] / max(1, len(fp_pool)),
             "lat": float(np.median(lat[ok])) if ok.any() else np.nan,
         })
     return rows
@@ -167,7 +170,11 @@ def main():
     print(f"perturbed {len(pert)} 条, clean {len(clean)} 条, "
           f"warmup={args.warmup}, tag={args.tag}\n")
 
-    kappas = [1.5, 2, 2.5, 3, 4, 5, 6]
+    half = len(clean) // 2
+    clean_calib, clean_test = clean[:half], clean[half:]
+    print(f"标定 {len(clean_calib)} 条, 误报测试 {len(clean_test)} 条 (不重叠)\n")
+
+    kappas = list(np.arange(1.5, 6.01, 0.25))
     fine = not args.coarse
 
     if args.sweep:
@@ -175,13 +182,17 @@ def main():
               f"{'检出':>8}{'误报':>8}{'延迟':>8}")
         print("-" * 52)
         best = []
+        all_rows = []
         for name in ["mean", "temporal", "grid"]:
             for metric in ["abs", "rel"]:
                 for k in [1, 2]:
                     for consec in [1, 2, 3]:
-                        rows = evaluate(pert, clean, name, k, metric,
-                                        kappas, consec, args.warmup, fine)
+                        rows = evaluate(pert, clean_calib, name, k, metric,
+                                        kappas, consec, args.warmup, fine,
+                                        clean_test=clean_test)
                         for r in rows:
+                            all_rows.append(dict(feature=name, metric=metric, k=k,
+                                                 consec=consec, tag=args.tag, **r))
                             if r["detect"] >= 0.75 and r["fp"] <= 0.15:
                                 print(f"{name:<9}{metric:>5}{k:>3}{consec:>5}"
                                       f"{r['kappa']:>6.1f}{r['detect']:>8.2f}"
@@ -200,10 +211,15 @@ def main():
         else:
             print("仍无组合满足 检出>=0.75 且 误报<=0.15")
             print("下一步: 试 --tag f8s1_agentview (更短窗口), 或上 Level-1 predictor")
+
+        os.makedirs("results", exist_ok=True)
+        json.dump(all_rows, open(f"results/sweep_{args.tag}.json", "w"),
+                  indent=1, default=float)
         return
 
-    rows = evaluate(pert, clean, args.feature, args.k, args.metric,
-                    kappas, args.consec, args.warmup, fine)
+    rows = evaluate(pert, clean_calib, args.feature, args.k, args.metric,
+                    kappas, args.consec, args.warmup, fine,
+                    clean_test=clean_test)
     print(f"特征={args.feature} 度量={args.metric} k={args.k} "
           f"连续={args.consec} 细分桶={fine}")
     print(f"{'κ':>6}{'检出':>8}{'误报':>8}{'延迟':>8}")

@@ -1,74 +1,67 @@
-# Unitree / Isaac simulation assets
-unitree_sim_isaaclab/
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
 
-# Large simulation files
-*.usd
-*.usda
-*.mesh
-*.png
-*.jpg
+# =========================
+# Environment / IDE / OS
+# =========================
+.env
+.venv/
+.vscode/
+.DS_Store
 
-# Logs
+# =========================
+# Model checkpoints / weights
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+exp/vjepa2-vitl/
+vjepa2/
+
+# =========================
+# Experiment data / caches
+# =========================
+exp/data/
+exp/latents/
+
+# =========================
+# Generated experiment outputs
+# =========================
+exp/results/
+exp/figs/
+exp/recovered.txt
+
 logs/
+runs/
+wandb/
 *.log
 
-# Python cache
-__pycache__/
-*.pyc
+# =========================
+# Local snapshots
+# =========================
+final_snapshot/
+snapshots/
 
-# Checkpoints
-*.pt
-*.pth
-*.ckpt
-
-# Environment
-.env
-.venv/
-
-# VSCode
-.vscode/
-
-# OS
-.DS_Store# python
-__pycache__/
-*.pyc
-
-# conda
-.env
-.venv/
-
-# checkpoints
-*.pt
-*.pth
-*.ckpt
-
-# large files
+# =========================
+# Large archives
+# =========================
 *.zip
 *.tar
 *.tar.gz
 
-# simulation assets
+# =========================
+# Simulation assets / external repos
+# =========================
 assets/
-*.usd
-*.usda
-*.mesh
-
-# logs
-logs/
-runs/
-wandb/
-
-# vscode
-.vscode/
-
-# OS
-.DS_Store
-
-vjepa2/
-vjepa2/
 unitree_sim_isaaclab/
 cyclonedds-core/
 unitree_sdk2_python/
-exp/data/
-exp/*.png
-exp/*.log
+
+*.usd
+*.usda
+*.mesh
