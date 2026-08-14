@@ -65,3 +65,5 @@ unitree_sdk2_python/
 *.usd
 *.usda
 *.mesh
+exp/check_*.png
+exp/verify_t*.png
