@@ -1,0 +1,6561 @@
+{
+ "no_replan": {
+  "perturbed": [
+   {
+    "condition": "no_replan",
+    "seed": 0,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.0064542217504411975,
+     0.05164695262487885
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     0.0544592971453392,
+     -0.01751964619741235
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 2,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.027212190722507787,
+     0.08653342863118868
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 3,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.007455223374197237,
+     0.08975463159053299
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 4,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.09856201881665401,
+     -0.007026834825071552
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 5,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.026977663465466185,
+     -0.07080066782039035
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 6,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     -0.03785913196161762,
+     0.05703112215988007
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 7,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.07090345505186242,
+     -0.05343546797832316
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 8,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.06572496645824334,
+     -0.005265403394871581
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 9,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     -0.018377822072082526,
+     0.07802221243608284
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 10,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     0.024023116313869785,
+     0.08820950418626534
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 11,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 16,
+    "perturb_delta": [
+     -0.08007409361900145,
+     0.0003633246085417309
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 12,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     0.05616889644825363,
+     -0.019525944650384403
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 13,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.0556353485994203,
+     -0.0714438406273204
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 14,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 18,
+    "perturb_delta": [
+     -0.054657571039729354,
+     0.0652752080423501
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 15,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.027012791569452712,
+     -0.061553902537719384
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 16,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     -0.04960574106082082,
+     0.023060015019657532
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 17,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     0.041331207408884706,
+     0.06601629708823889
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "GRASP",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 18,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.01302035130764881,
+     -0.06270359994393039
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 19,
+    "success": false,
+    "steps": 300,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     0.05690842398743194,
+     -0.028605823610527374
+    ],
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "DESCEND",
+    "z_log": []
+   }
+  ],
+  "clean": [
+   {
+    "condition": "no_replan",
+    "seed": 1000,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1001,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1002,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1003,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1004,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1005,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1006,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1007,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1008,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1009,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1010,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1011,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1012,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1013,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1014,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1015,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1016,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1017,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1018,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "no_replan",
+    "seed": 1019,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   }
+  ]
+ },
+ "fixed": {
+  "perturbed": [
+   {
+    "condition": "fixed",
+    "seed": 0,
+    "success": true,
+    "steps": 89,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.0064542217504411975,
+     0.05164695262487885
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 15,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1,
+    "success": true,
+    "steps": 70,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     0.0544592971453392,
+     -0.01751964619741235
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 0,
+    "n_replans": 3,
+    "replan_steps": [
+     20,
+     40,
+     60
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 2,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.027212190722507787,
+     0.08653342863118868
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 16,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 3,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.007455223374197237,
+     0.08975463159053299
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 17,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 4,
+    "success": true,
+    "steps": 101,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.09856201881665401,
+     -0.007026834825071552
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 15,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 5,
+    "success": true,
+    "steps": 91,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.026977663465466185,
+     -0.07080066782039035
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 17,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 6,
+    "success": true,
+    "steps": 69,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     -0.03785913196161762,
+     0.05703112215988007
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 0,
+    "n_replans": 3,
+    "replan_steps": [
+     20,
+     40,
+     60
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 7,
+    "success": true,
+    "steps": 101,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.07090345505186242,
+     -0.05343546797832316
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 14,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 8,
+    "success": true,
+    "steps": 101,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.06572496645824334,
+     -0.005265403394871581
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 17,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 9,
+    "success": true,
+    "steps": 103,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     -0.018377822072082526,
+     0.07802221243608284
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 18,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 10,
+    "success": true,
+    "steps": 102,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     0.024023116313869785,
+     0.08820950418626534
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 15,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 11,
+    "success": true,
+    "steps": 69,
+    "perturbed": true,
+    "perturb_step": 16,
+    "perturb_delta": [
+     -0.08007409361900145,
+     0.0003633246085417309
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 4,
+    "n_replans": 3,
+    "replan_steps": [
+     20,
+     40,
+     60
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 12,
+    "success": true,
+    "steps": 99,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     0.05616889644825363,
+     -0.019525944650384403
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 18,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 13,
+    "success": true,
+    "steps": 103,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.0556353485994203,
+     -0.0714438406273204
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 14,
+    "n_replans": 5,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80,
+     100
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 14,
+    "success": true,
+    "steps": 70,
+    "perturbed": true,
+    "perturb_step": 18,
+    "perturb_delta": [
+     -0.054657571039729354,
+     0.0652752080423501
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 2,
+    "n_replans": 3,
+    "replan_steps": [
+     20,
+     40,
+     60
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 15,
+    "success": true,
+    "steps": 91,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.027012791569452712,
+     -0.061553902537719384
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 14,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 16,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     -0.04960574106082082,
+     0.023060015019657532
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 19,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 17,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     0.041331207408884706,
+     0.06601629708823889
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 16,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 18,
+    "success": true,
+    "steps": 91,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.01302035130764881,
+     -0.06270359994393039
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 16,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 19,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     0.05690842398743194,
+     -0.028605823610527374
+    ],
+    "trigger_step": 40,
+    "trigger_latency": 19,
+    "n_replans": 4,
+    "replan_steps": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   }
+  ],
+  "clean": [
+   {
+    "condition": "fixed",
+    "seed": 1000,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1001,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1002,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1003,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1004,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1005,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1006,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1007,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1008,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1009,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1010,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1011,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1012,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1013,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1014,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1015,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1016,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1017,
+    "success": true,
+    "steps": 55,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1018,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "fixed",
+    "seed": 1019,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     40
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   }
+  ]
+ },
+ "oracle": {
+  "perturbed": [
+   {
+    "condition": "oracle",
+    "seed": 0,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.0064542217504411975,
+     0.05164695262487885
+    ],
+    "trigger_step": 25,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     25
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1,
+    "success": true,
+    "steps": 70,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     0.0544592971453392,
+     -0.01751964619741235
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     20
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 2,
+    "success": true,
+    "steps": 75,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.027212190722507787,
+     0.08653342863118868
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 3,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.007455223374197237,
+     0.08975463159053299
+    ],
+    "trigger_step": 23,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     23
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 4,
+    "success": true,
+    "steps": 75,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.09856201881665401,
+     -0.007026834825071552
+    ],
+    "trigger_step": 25,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     25
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 5,
+    "success": true,
+    "steps": 73,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.026977663465466185,
+     -0.07080066782039035
+    ],
+    "trigger_step": 23,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     23
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 6,
+    "success": true,
+    "steps": 69,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     -0.03785913196161762,
+     0.05703112215988007
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     20
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 7,
+    "success": true,
+    "steps": 78,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.07090345505186242,
+     -0.05343546797832316
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 8,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.06572496645824334,
+     -0.005265403394871581
+    ],
+    "trigger_step": 23,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     23
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 9,
+    "success": true,
+    "steps": 72,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     -0.018377822072082526,
+     0.07802221243608284
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 10,
+    "success": true,
+    "steps": 76,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     0.024023116313869785,
+     0.08820950418626534
+    ],
+    "trigger_step": 25,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     25
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 11,
+    "success": true,
+    "steps": 64,
+    "perturbed": true,
+    "perturb_step": 16,
+    "perturb_delta": [
+     -0.08007409361900145,
+     0.0003633246085417309
+    ],
+    "trigger_step": 16,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     16
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 12,
+    "success": true,
+    "steps": 73,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     0.05616889644825363,
+     -0.019525944650384403
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 13,
+    "success": true,
+    "steps": 78,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.0556353485994203,
+     -0.0714438406273204
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 14,
+    "success": true,
+    "steps": 67,
+    "perturbed": true,
+    "perturb_step": 18,
+    "perturb_delta": [
+     -0.054657571039729354,
+     0.0652752080423501
+    ],
+    "trigger_step": 18,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     18
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 15,
+    "success": true,
+    "steps": 76,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.027012791569452712,
+     -0.061553902537719384
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 16,
+    "success": true,
+    "steps": 69,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     -0.04960574106082082,
+     0.023060015019657532
+    ],
+    "trigger_step": 21,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     21
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 17,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     0.041331207408884706,
+     0.06601629708823889
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 18,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.01302035130764881,
+     -0.06270359994393039
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 19,
+    "success": true,
+    "steps": 72,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     0.05690842398743194,
+     -0.028605823610527374
+    ],
+    "trigger_step": 21,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     21
+    ],
+    "final_state": "LIFT",
+    "z_log": []
+   }
+  ],
+  "clean": [
+   {
+    "condition": "oracle",
+    "seed": 1000,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1001,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1002,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1003,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1004,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1005,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1006,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1007,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1008,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1009,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1010,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1011,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1012,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1013,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1014,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1015,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1016,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1017,
+    "success": true,
+    "steps": 54,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1018,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   },
+   {
+    "condition": "oracle",
+    "seed": 1019,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": []
+   }
+  ]
+ },
+ "jepa": {
+  "perturbed": [
+   {
+    "condition": "jepa",
+    "seed": 0,
+    "success": true,
+    "steps": 76,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.0064542217504411975,
+     0.05164695262487885
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 1,
+    "n_replans": 2,
+    "replan_steps": [
+     26,
+     64
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.934887341763022
+     ],
+     [
+      22,
+      -1.1410318570229752
+     ],
+     [
+      24,
+      -1.7537627928879207
+     ],
+     [
+      26,
+      4.611816734449918
+     ],
+     [
+      28,
+      1.5188247134728272
+     ],
+     [
+      30,
+      0.7567250731717244
+     ],
+     [
+      32,
+      -0.25186544873150585
+     ],
+     [
+      34,
+      -0.15949053704599134
+     ],
+     [
+      36,
+      -0.5077776262274921
+     ],
+     [
+      38,
+      -0.6416740734973368
+     ],
+     [
+      40,
+      -0.13380945043495188
+     ],
+     [
+      42,
+      0.5133109118858937
+     ],
+     [
+      44,
+      -0.7144860426188777
+     ],
+     [
+      46,
+      1.811275260224175
+     ],
+     [
+      48,
+      1.9528653008594399
+     ],
+     [
+      50,
+      0.9303328133159143
+     ],
+     [
+      52,
+      -0.20627273205695154
+     ],
+     [
+      54,
+      -0.6186900674852374
+     ],
+     [
+      56,
+      0.4669995229905517
+     ],
+     [
+      58,
+      1.516740485758104
+     ],
+     [
+      60,
+      1.9634200751192539
+     ],
+     [
+      62,
+      0.34250390327389857
+     ],
+     [
+      64,
+      3.3865427854575145
+     ],
+     [
+      66,
+      0.662542754818656
+     ],
+     [
+      68,
+      -0.8168233758891745
+     ],
+     [
+      70,
+      -0.4139052961681077
+     ],
+     [
+      72,
+      0.22121634210989588
+     ],
+     [
+      74,
+      0.2953374737191974
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1,
+    "success": true,
+    "steps": 73,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     0.0544592971453392,
+     -0.01751964619741235
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 2,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      1.3301136251311108
+     ],
+     [
+      22,
+      16.332651223178438
+     ],
+     [
+      24,
+      2.282576269659603
+     ],
+     [
+      26,
+      1.236865777751339
+     ],
+     [
+      28,
+      -0.2752546200841127
+     ],
+     [
+      30,
+      -0.2977851401610318
+     ],
+     [
+      32,
+      -0.3773308270049623
+     ],
+     [
+      34,
+      -0.18550801167274292
+     ],
+     [
+      36,
+      1.7144316804956266
+     ],
+     [
+      38,
+      0.7131563421367194
+     ],
+     [
+      40,
+      -0.46921770988544464
+     ],
+     [
+      42,
+      2.2733526560676576
+     ],
+     [
+      44,
+      2.447795956106827
+     ],
+     [
+      46,
+      -0.5760807317841132
+     ],
+     [
+      48,
+      -0.6352210966462214
+     ],
+     [
+      50,
+      -0.22076994312904422
+     ],
+     [
+      52,
+      -0.9335870306393866
+     ],
+     [
+      54,
+      0.2514515419866134
+     ],
+     [
+      56,
+      0.6265137243815875
+     ],
+     [
+      58,
+      -0.989546235767533
+     ],
+     [
+      60,
+      0.11280004916726794
+     ],
+     [
+      62,
+      -0.8777469406208676
+     ],
+     [
+      64,
+      -2.3144987306455236
+     ],
+     [
+      66,
+      -2.9280760494993747
+     ],
+     [
+      68,
+      -1.550712193432294
+     ],
+     [
+      70,
+      1.5684601765715376
+     ],
+     [
+      72,
+      1.7390521518413289
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 2,
+    "success": true,
+    "steps": 75,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.027212190722507787,
+     0.08653342863118868
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 2,
+    "replan_steps": [
+     24,
+     62
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.8439508402534406
+     ],
+     [
+      22,
+      -0.09833024706231835
+     ],
+     [
+      24,
+      6.536329184089573
+     ],
+     [
+      26,
+      1.812720125419201
+     ],
+     [
+      28,
+      0.9150971935368533
+     ],
+     [
+      30,
+      -0.43580154908794355
+     ],
+     [
+      32,
+      -0.18361019378660456
+     ],
+     [
+      34,
+      -0.24553979025623301
+     ],
+     [
+      36,
+      -0.27645364305212533
+     ],
+     [
+      38,
+      1.1313584865139574
+     ],
+     [
+      40,
+      1.9619378856780567
+     ],
+     [
+      42,
+      1.484912413991958
+     ],
+     [
+      44,
+      -1.9851539579807675
+     ],
+     [
+      46,
+      -0.877480253638118
+     ],
+     [
+      48,
+      -0.1762110722624693
+     ],
+     [
+      50,
+      0.009949927647653385
+     ],
+     [
+      52,
+      0.4299387524233591
+     ],
+     [
+      54,
+      1.4359426756303144
+     ],
+     [
+      56,
+      -0.10239492198747777
+     ],
+     [
+      58,
+      0.24641247577239356
+     ],
+     [
+      60,
+      0.7371967586449106
+     ],
+     [
+      62,
+      3.660800277183911
+     ],
+     [
+      64,
+      0.7237560551112221
+     ],
+     [
+      66,
+      -0.23295506563852686
+     ],
+     [
+      68,
+      -0.029120379466368328
+     ],
+     [
+      70,
+      -0.6992215599293041
+     ],
+     [
+      72,
+      0.5833653977588841
+     ],
+     [
+      74,
+      0.6962283636019438
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 3,
+    "success": true,
+    "steps": 75,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.007455223374197237,
+     0.08975463159053299
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.7362263650431388
+     ],
+     [
+      22,
+      -1.3821663212212916
+     ],
+     [
+      24,
+      7.714738173980498
+     ],
+     [
+      26,
+      1.9386897431944279
+     ],
+     [
+      28,
+      0.7908962248971123
+     ],
+     [
+      30,
+      -0.17909530469159562
+     ],
+     [
+      32,
+      -0.1879072610443332
+     ],
+     [
+      34,
+      -0.4667900148888711
+     ],
+     [
+      36,
+      -0.3601365407962224
+     ],
+     [
+      38,
+      0.5475479450276524
+     ],
+     [
+      40,
+      1.2792572222419991
+     ],
+     [
+      42,
+      1.2219110929039896
+     ],
+     [
+      44,
+      -2.022933992236103
+     ],
+     [
+      46,
+      1.5450988696580885
+     ],
+     [
+      48,
+      0.7255728011434939
+     ],
+     [
+      50,
+      -0.8012353683673565
+     ],
+     [
+      52,
+      0.6645397616760653
+     ],
+     [
+      54,
+      1.6187990514637347
+     ],
+     [
+      56,
+      0.14006924999370937
+     ],
+     [
+      58,
+      0.5728316809156591
+     ],
+     [
+      60,
+      -0.7125161278187087
+     ],
+     [
+      62,
+      0.8327301562275726
+     ],
+     [
+      64,
+      0.2424132953112641
+     ],
+     [
+      66,
+      -0.4565733154200625
+     ],
+     [
+      68,
+      0.4098279103523869
+     ],
+     [
+      70,
+      -0.8873279656639481
+     ],
+     [
+      72,
+      0.3524423600168624
+     ],
+     [
+      74,
+      0.34170122616575194
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 4,
+    "success": true,
+    "steps": 76,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     -0.09856201881665401,
+     -0.007026834825071552
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.24063339518770258
+     ],
+     [
+      22,
+      -2.0547088787224417
+     ],
+     [
+      24,
+      0.03247771688078819
+     ],
+     [
+      26,
+      5.307469375485796
+     ],
+     [
+      28,
+      1.0472584872944402
+     ],
+     [
+      30,
+      0.7795730996652317
+     ],
+     [
+      32,
+      0.7287488065902036
+     ],
+     [
+      34,
+      0.1989338921905935
+     ],
+     [
+      36,
+      -0.4405061798570475
+     ],
+     [
+      38,
+      -0.31635715951919935
+     ],
+     [
+      40,
+      -0.3801920549991732
+     ],
+     [
+      42,
+      0.08573423272033887
+     ],
+     [
+      44,
+      -0.9599108916745889
+     ],
+     [
+      46,
+      0.5226518207581355
+     ],
+     [
+      48,
+      -0.18161471631005907
+     ],
+     [
+      50,
+      0.9559812139896997
+     ],
+     [
+      52,
+      1.293317705930843
+     ],
+     [
+      54,
+      1.458809687761933
+     ],
+     [
+      56,
+      1.858304824526851
+     ],
+     [
+      58,
+      1.3669954996653315
+     ],
+     [
+      60,
+      1.3791484336094
+     ],
+     [
+      62,
+      -1.194839024616528
+     ],
+     [
+      64,
+      -0.564761605549357
+     ],
+     [
+      66,
+      -0.9391390687967024
+     ],
+     [
+      68,
+      -1.827997044338093
+     ],
+     [
+      70,
+      -1.5782589853280318
+     ],
+     [
+      72,
+      0.8401292050546527
+     ],
+     [
+      74,
+      0.915058980718124
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 5,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.026977663465466185,
+     -0.07080066782039035
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 1,
+    "n_replans": 2,
+    "replan_steps": [
+     24,
+     46
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.9786420602831234
+     ],
+     [
+      22,
+      -1.3039353376458431
+     ],
+     [
+      24,
+      10.363885173062648
+     ],
+     [
+      26,
+      2.3580124246213634
+     ],
+     [
+      28,
+      1.1318014403223844
+     ],
+     [
+      30,
+      -0.19943577261265497
+     ],
+     [
+      32,
+      -0.31928973141871625
+     ],
+     [
+      34,
+      -0.35337202948488206
+     ],
+     [
+      36,
+      -0.41127613398930263
+     ],
+     [
+      38,
+      -0.5984535481501058
+     ],
+     [
+      40,
+      -0.7109556148461662
+     ],
+     [
+      42,
+      -0.42019389545850383
+     ],
+     [
+      44,
+      2.1930879526484817
+     ],
+     [
+      46,
+      3.7914376801330985
+     ],
+     [
+      48,
+      0.6390388621729931
+     ],
+     [
+      50,
+      0.6017064628149753
+     ],
+     [
+      52,
+      -0.9982909971866127
+     ],
+     [
+      54,
+      0.11314251260831582
+     ],
+     [
+      56,
+      0.3569098989169581
+     ],
+     [
+      58,
+      1.1715635312171206
+     ],
+     [
+      60,
+      -1.410655136918906
+     ],
+     [
+      62,
+      -0.27921603356633834
+     ],
+     [
+      64,
+      -0.48038622550100957
+     ],
+     [
+      66,
+      -1.373618606186975
+     ],
+     [
+      68,
+      -1.0519745327341483
+     ],
+     [
+      70,
+      0.5632839770798665
+     ],
+     [
+      72,
+      0.782716877215617
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 6,
+    "success": true,
+    "steps": 72,
+    "perturbed": true,
+    "perturb_step": 20,
+    "perturb_delta": [
+     -0.03785913196161762,
+     0.05703112215988007
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 2,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.4377974873123253
+     ],
+     [
+      22,
+      10.40118684446633
+     ],
+     [
+      24,
+      1.3794279639527633
+     ],
+     [
+      26,
+      0.8644040749384194
+     ],
+     [
+      28,
+      -0.20234648209940617
+     ],
+     [
+      30,
+      -0.33112371504797533
+     ],
+     [
+      32,
+      -0.5148973516031267
+     ],
+     [
+      34,
+      -0.1930435240361141
+     ],
+     [
+      36,
+      1.7196215958972607
+     ],
+     [
+      38,
+      0.9785727826346754
+     ],
+     [
+      40,
+      -1.1645119304460252
+     ],
+     [
+      42,
+      0.4436714982595507
+     ],
+     [
+      44,
+      -1.3261143691371817
+     ],
+     [
+      46,
+      -0.19460979393409691
+     ],
+     [
+      48,
+      0.7272228880073466
+     ],
+     [
+      50,
+      0.8622437511511319
+     ],
+     [
+      52,
+      1.0418813525005088
+     ],
+     [
+      54,
+      0.5479110910549997
+     ],
+     [
+      56,
+      1.4706593094920346
+     ],
+     [
+      58,
+      -0.5718274941342789
+     ],
+     [
+      60,
+      0.28384548051609915
+     ],
+     [
+      62,
+      -0.9818832316451344
+     ],
+     [
+      64,
+      -1.4628485614414626
+     ],
+     [
+      66,
+      -1.2904093498188143
+     ],
+     [
+      68,
+      0.9846852497922497
+     ],
+     [
+      70,
+      0.98807102676698
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 7,
+    "success": true,
+    "steps": 78,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.07090345505186242,
+     -0.05343546797832316
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 4,
+    "replan_steps": [
+     26,
+     42,
+     50,
+     56
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.4527849366562713
+     ],
+     [
+      22,
+      0.10697881344256843
+     ],
+     [
+      24,
+      0.2553030999515531
+     ],
+     [
+      26,
+      10.78891301153266
+     ],
+     [
+      28,
+      2.2976031684156255
+     ],
+     [
+      30,
+      0.8891342746557188
+     ],
+     [
+      32,
+      -0.38256496942270346
+     ],
+     [
+      34,
+      -0.3566578097227513
+     ],
+     [
+      36,
+      -0.20816910450847365
+     ],
+     [
+      38,
+      -0.42778185448222
+     ],
+     [
+      40,
+      1.3500032009790217
+     ],
+     [
+      42,
+      2.799699274661449
+     ],
+     [
+      44,
+      1.6007293098181217
+     ],
+     [
+      46,
+      -1.6014298354153604
+     ],
+     [
+      48,
+      1.1043741315402427
+     ],
+     [
+      50,
+      4.163493559588118
+     ],
+     [
+      52,
+      2.2302019391630057
+     ],
+     [
+      54,
+      0.08366129248472993
+     ],
+     [
+      56,
+      3.8048475900167373
+     ],
+     [
+      58,
+      1.072882513628561
+     ],
+     [
+      60,
+      0.47042855650943566
+     ],
+     [
+      62,
+      1.876399701896884
+     ],
+     [
+      64,
+      -1.9151525897733734
+     ],
+     [
+      66,
+      -1.1117668689876308
+     ],
+     [
+      68,
+      -1.2900763233448171
+     ],
+     [
+      70,
+      -1.934338592672862
+     ],
+     [
+      72,
+      -2.2816804112364264
+     ],
+     [
+      74,
+      0.22330375257521295
+     ],
+     [
+      76,
+      0.5055328475422348
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 8,
+    "success": true,
+    "steps": 75,
+    "perturbed": true,
+    "perturb_step": 23,
+    "perturb_delta": [
+     0.06572496645824334,
+     -0.005265403394871581
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.4841524660919125
+     ],
+     [
+      22,
+      -0.5013583351291451
+     ],
+     [
+      24,
+      10.337993062159656
+     ],
+     [
+      26,
+      2.348198407588099
+     ],
+     [
+      28,
+      1.1039623653952833
+     ],
+     [
+      30,
+      -0.18668617509096072
+     ],
+     [
+      32,
+      -0.27238442626138604
+     ],
+     [
+      34,
+      -0.17655766023002065
+     ],
+     [
+      36,
+      -0.05423685908813017
+     ],
+     [
+      38,
+      0.2413933430877481
+     ],
+     [
+      40,
+      -0.026940934808969683
+     ],
+     [
+      42,
+      -0.9875935500791116
+     ],
+     [
+      44,
+      0.26102748907091533
+     ],
+     [
+      46,
+      0.9596256623597953
+     ],
+     [
+      48,
+      0.8672230690193098
+     ],
+     [
+      50,
+      -0.7136278430430334
+     ],
+     [
+      52,
+      0.2684624952782659
+     ],
+     [
+      54,
+      -0.41427837167871334
+     ],
+     [
+      56,
+      0.3401856020232646
+     ],
+     [
+      58,
+      1.4499884791574085
+     ],
+     [
+      60,
+      -0.7610460844386978
+     ],
+     [
+      62,
+      1.3392162883650085
+     ],
+     [
+      64,
+      0.055842078722003884
+     ],
+     [
+      66,
+      -1.2005497545339463
+     ],
+     [
+      68,
+      -1.1321385705152949
+     ],
+     [
+      70,
+      -0.7055079061761175
+     ],
+     [
+      72,
+      0.36887340239456023
+     ],
+     [
+      74,
+      0.5233400968196017
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 9,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     -0.018377822072082526,
+     0.07802221243608284
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 2,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.1886203926496806
+     ],
+     [
+      22,
+      1.1713760149149193
+     ],
+     [
+      24,
+      15.702301718502028
+     ],
+     [
+      26,
+      1.8706406768763444
+     ],
+     [
+      28,
+      1.1619402806143622
+     ],
+     [
+      30,
+      -0.277733697348187
+     ],
+     [
+      32,
+      -0.22885014469445192
+     ],
+     [
+      34,
+      -0.12936774256154795
+     ],
+     [
+      36,
+      -0.30220074582192125
+     ],
+     [
+      38,
+      -0.07096555571042981
+     ],
+     [
+      40,
+      -0.09143187877918715
+     ],
+     [
+      42,
+      -0.6862550588204135
+     ],
+     [
+      44,
+      -0.2865151623816601
+     ],
+     [
+      46,
+      -0.7725966151685312
+     ],
+     [
+      48,
+      -0.46010127471810186
+     ],
+     [
+      50,
+      0.10863535498829467
+     ],
+     [
+      52,
+      0.14908460398955845
+     ],
+     [
+      54,
+      0.8678354582570007
+     ],
+     [
+      56,
+      0.685559194086101
+     ],
+     [
+      58,
+      1.6581798337198892
+     ],
+     [
+      60,
+      1.450633523738441
+     ],
+     [
+      62,
+      0.4404987062595489
+     ],
+     [
+      64,
+      -1.4411201138748673
+     ],
+     [
+      66,
+      -2.140430420269899
+     ],
+     [
+      68,
+      -1.8532137206595438
+     ],
+     [
+      70,
+      0.7972058298565691
+     ],
+     [
+      72,
+      0.6922386235992205
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 10,
+    "success": true,
+    "steps": 77,
+    "perturbed": true,
+    "perturb_step": 25,
+    "perturb_delta": [
+     0.024023116313869785,
+     0.08820950418626534
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.36598240868503823
+     ],
+     [
+      22,
+      -1.6263558371371098
+     ],
+     [
+      24,
+      0.29228962881746895
+     ],
+     [
+      26,
+      9.81854291684044
+     ],
+     [
+      28,
+      2.0633131177175135
+     ],
+     [
+      30,
+      0.8124469478514583
+     ],
+     [
+      32,
+      -0.2231089547586218
+     ],
+     [
+      34,
+      -0.4372857862848812
+     ],
+     [
+      36,
+      -0.3870608041212652
+     ],
+     [
+      38,
+      -0.22857335451448246
+     ],
+     [
+      40,
+      1.0907683348921322
+     ],
+     [
+      42,
+      1.1124709415457417
+     ],
+     [
+      44,
+      1.6607476184861518
+     ],
+     [
+      46,
+      -1.4302600611633787
+     ],
+     [
+      48,
+      0.2654618947356818
+     ],
+     [
+      50,
+      -0.1272967485004221
+     ],
+     [
+      52,
+      -1.8100290418977125
+     ],
+     [
+      54,
+      -0.59199643681627
+     ],
+     [
+      56,
+      -0.1924040208318362
+     ],
+     [
+      58,
+      1.0292953652893932
+     ],
+     [
+      60,
+      1.0774393978010726
+     ],
+     [
+      62,
+      0.08522392100130358
+     ],
+     [
+      64,
+      2.384625179466633
+     ],
+     [
+      66,
+      0.1978774146323892
+     ],
+     [
+      68,
+      -0.8384447846506402
+     ],
+     [
+      70,
+      -1.0954084725841082
+     ],
+     [
+      72,
+      -0.9426192109839759
+     ],
+     [
+      74,
+      0.5287460839227375
+     ],
+     [
+      76,
+      0.7187289964097796
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 11,
+    "success": true,
+    "steps": 69,
+    "perturbed": true,
+    "perturb_step": 16,
+    "perturb_delta": [
+     -0.08007409361900145,
+     0.0003633246085417309
+    ],
+    "trigger_step": 20,
+    "trigger_latency": 4,
+    "n_replans": 2,
+    "replan_steps": [
+     20,
+     32
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      2.812495708413598
+     ],
+     [
+      22,
+      0.22548328533711243
+     ],
+     [
+      24,
+      0.5510118034021106
+     ],
+     [
+      26,
+      0.1313144523692452
+     ],
+     [
+      28,
+      -0.12320294330680807
+     ],
+     [
+      30,
+      -0.18877092663487555
+     ],
+     [
+      32,
+      3.2502104851373876
+     ],
+     [
+      34,
+      1.918182763079857
+     ],
+     [
+      36,
+      1.7387518293010078
+     ],
+     [
+      38,
+      -0.9211207570479946
+     ],
+     [
+      40,
+      1.6785148131804102
+     ],
+     [
+      42,
+      0.02338060229056122
+     ],
+     [
+      44,
+      -1.6501761410404356
+     ],
+     [
+      46,
+      -0.43101241185221656
+     ],
+     [
+      48,
+      -0.5491666751202602
+     ],
+     [
+      50,
+      0.2523308976334056
+     ],
+     [
+      52,
+      0.5440132575610682
+     ],
+     [
+      54,
+      -0.5955811230007627
+     ],
+     [
+      56,
+      -0.41050923011373447
+     ],
+     [
+      58,
+      -1.2042754787269523
+     ],
+     [
+      60,
+      -1.5964940324533943
+     ],
+     [
+      62,
+      -1.5625133092363381
+     ],
+     [
+      64,
+      -1.2052826620000867
+     ],
+     [
+      66,
+      1.4054299192127258
+     ],
+     [
+      68,
+      1.49157795111938
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 12,
+    "success": true,
+    "steps": 73,
+    "perturbed": true,
+    "perturb_step": 22,
+    "perturb_delta": [
+     0.05616889644825363,
+     -0.019525944650384403
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.2315215328319224
+     ],
+     [
+      22,
+      10.607743869420778
+     ],
+     [
+      24,
+      2.0483171071409947
+     ],
+     [
+      26,
+      0.9332646579725582
+     ],
+     [
+      28,
+      0.05685588823152132
+     ],
+     [
+      30,
+      -0.18577156406149645
+     ],
+     [
+      32,
+      -0.3265901727017076
+     ],
+     [
+      34,
+      -0.2501353095341026
+     ],
+     [
+      36,
+      0.12896176056330955
+     ],
+     [
+      38,
+      0.9156034675459436
+     ],
+     [
+      40,
+      -0.4402932862220527
+     ],
+     [
+      42,
+      -0.32758873980404746
+     ],
+     [
+      44,
+      -0.12621686007100485
+     ],
+     [
+      46,
+      -1.0600808431882165
+     ],
+     [
+      48,
+      -1.519962556014462
+     ],
+     [
+      50,
+      -1.158741075378013
+     ],
+     [
+      52,
+      -0.15071538496418788
+     ],
+     [
+      54,
+      0.40179379158034184
+     ],
+     [
+      56,
+      1.309701390319006
+     ],
+     [
+      58,
+      -1.429707383165941
+     ],
+     [
+      60,
+      -0.3036845025943644
+     ],
+     [
+      62,
+      -0.5806566531737473
+     ],
+     [
+      64,
+      -1.4095238921245343
+     ],
+     [
+      66,
+      -1.1993282916907766
+     ],
+     [
+      68,
+      -1.129235362343857
+     ],
+     [
+      70,
+      0.997043391750296
+     ],
+     [
+      72,
+      0.9769196908593049
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 13,
+    "success": true,
+    "steps": 78,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.0556353485994203,
+     -0.0714438406273204
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 4,
+    "replan_steps": [
+     26,
+     42,
+     48,
+     56
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.31246730138106904
+     ],
+     [
+      22,
+      -1.983645285748477
+     ],
+     [
+      24,
+      1.021435618767296
+     ],
+     [
+      26,
+      9.887807044741274
+     ],
+     [
+      28,
+      1.9518862164559567
+     ],
+     [
+      30,
+      0.9120111836027881
+     ],
+     [
+      32,
+      -0.33439625749462865
+     ],
+     [
+      34,
+      -0.15468040509234834
+     ],
+     [
+      36,
+      -0.07546706703697535
+     ],
+     [
+      38,
+      -0.2840228516113189
+     ],
+     [
+      40,
+      1.0268115230302508
+     ],
+     [
+      42,
+      2.9189761140887023
+     ],
+     [
+      44,
+      2.0767255052921527
+     ],
+     [
+      46,
+      -1.4141658297990538
+     ],
+     [
+      48,
+      2.639621117895761
+     ],
+     [
+      50,
+      -1.1020004032453223
+     ],
+     [
+      52,
+      -0.8701871549974233
+     ],
+     [
+      54,
+      1.467532672363787
+     ],
+     [
+      56,
+      2.621983068277615
+     ],
+     [
+      58,
+      0.8067964025020927
+     ],
+     [
+      60,
+      1.045765136044987
+     ],
+     [
+      62,
+      1.9843840240028106
+     ],
+     [
+      64,
+      -1.1187550055301254
+     ],
+     [
+      66,
+      -0.2588356731197692
+     ],
+     [
+      68,
+      -1.0035119482768298
+     ],
+     [
+      70,
+      -1.6360640003738054
+     ],
+     [
+      72,
+      -1.2816057649297716
+     ],
+     [
+      74,
+      -0.05463068086034897
+     ],
+     [
+      76,
+      -0.03765447574945567
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 14,
+    "success": true,
+    "steps": 100,
+    "perturbed": true,
+    "perturb_step": 18,
+    "perturb_delta": [
+     -0.054657571039729354,
+     0.0652752080423501
+    ],
+    "trigger_step": 50,
+    "trigger_latency": 32,
+    "n_replans": 1,
+    "replan_steps": [
+     50
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      1.739116688542345
+     ],
+     [
+      22,
+      1.920264155485749
+     ],
+     [
+      24,
+      0.34842421827814896
+     ],
+     [
+      26,
+      -0.8296542221064952
+     ],
+     [
+      28,
+      -0.26526272654404726
+     ],
+     [
+      30,
+      0.5613962624524234
+     ],
+     [
+      32,
+      0.22082257767375235
+     ],
+     [
+      34,
+      0.7109998626260544
+     ],
+     [
+      36,
+      1.2689000234013879
+     ],
+     [
+      38,
+      -1.5544950247210723
+     ],
+     [
+      40,
+      -1.6923186957781373
+     ],
+     [
+      42,
+      -2.21520067958806
+     ],
+     [
+      44,
+      -1.8556964517571004
+     ],
+     [
+      46,
+      -2.027651220047817
+     ],
+     [
+      48,
+      -1.2069899359217533
+     ],
+     [
+      50,
+      3.7153525561082756
+     ],
+     [
+      52,
+      3.5522244583899325
+     ],
+     [
+      54,
+      0.5270040661690503
+     ],
+     [
+      56,
+      0.2569647585745363
+     ],
+     [
+      58,
+      -0.4879917415293426
+     ],
+     [
+      60,
+      -0.23553964185556864
+     ],
+     [
+      62,
+      -0.03164596666036271
+     ],
+     [
+      64,
+      -0.11041492464807658
+     ],
+     [
+      66,
+      -0.13402504907756022
+     ],
+     [
+      68,
+      -1.216515774187865
+     ],
+     [
+      70,
+      -0.9039480249100993
+     ],
+     [
+      72,
+      -0.12958538364136604
+     ],
+     [
+      74,
+      -0.521568075917811
+     ],
+     [
+      76,
+      -0.7516112961844745
+     ],
+     [
+      78,
+      0.19131831052095705
+     ],
+     [
+      80,
+      0.7933401103336403
+     ],
+     [
+      82,
+      0.7586403560630813
+     ],
+     [
+      84,
+      1.2332047999834816
+     ],
+     [
+      86,
+      -1.0046032486266345
+     ],
+     [
+      88,
+      2.3211464394028494
+     ],
+     [
+      90,
+      0.6177042423373262
+     ],
+     [
+      92,
+      -0.6442364137965888
+     ],
+     [
+      94,
+      -0.23071966646548772
+     ],
+     [
+      96,
+      0.08814875497014724
+     ],
+     [
+      98,
+      0.18793257524037987
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 15,
+    "success": true,
+    "steps": 76,
+    "perturbed": true,
+    "perturb_step": 26,
+    "perturb_delta": [
+     0.027012791569452712,
+     -0.061553902537719384
+    ],
+    "trigger_step": 26,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     26
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.1496055646799175
+     ],
+     [
+      22,
+      0.7381672975861915
+     ],
+     [
+      24,
+      0.2654100712961378
+     ],
+     [
+      26,
+      10.653950768625025
+     ],
+     [
+      28,
+      2.4848886305222875
+     ],
+     [
+      30,
+      0.9943273796901374
+     ],
+     [
+      32,
+      -0.3977092031463218
+     ],
+     [
+      34,
+      -0.3669403643360222
+     ],
+     [
+      36,
+      -0.565433421860317
+     ],
+     [
+      38,
+      -0.6763921866870557
+     ],
+     [
+      40,
+      -0.32899981576292164
+     ],
+     [
+      42,
+      0.35913093259060996
+     ],
+     [
+      44,
+      -0.6508357260484456
+     ],
+     [
+      46,
+      1.601909965099843
+     ],
+     [
+      48,
+      2.0607897146601095
+     ],
+     [
+      50,
+      -0.12764410560871714
+     ],
+     [
+      52,
+      -0.6009428262309875
+     ],
+     [
+      54,
+      0.10923419112568017
+     ],
+     [
+      56,
+      0.5078175130885066
+     ],
+     [
+      58,
+      0.3350987547289683
+     ],
+     [
+      60,
+      1.1983788246761975
+     ],
+     [
+      62,
+      -1.1065152386616872
+     ],
+     [
+      64,
+      -0.039246639083133174
+     ],
+     [
+      66,
+      -1.504242057921552
+     ],
+     [
+      68,
+      -1.5242230647538022
+     ],
+     [
+      70,
+      -0.4999037029067486
+     ],
+     [
+      72,
+      1.4865228057752036
+     ],
+     [
+      74,
+      1.181573836901172
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 16,
+    "success": true,
+    "steps": 70,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     -0.04960574106082082,
+     0.023060015019657532
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.3867706948187952
+     ],
+     [
+      22,
+      5.111817682971612
+     ],
+     [
+      24,
+      1.7070332106579094
+     ],
+     [
+      26,
+      0.7907662538560832
+     ],
+     [
+      28,
+      -0.32335654133832537
+     ],
+     [
+      30,
+      -0.2986088918053322
+     ],
+     [
+      32,
+      -0.17110529482981085
+     ],
+     [
+      34,
+      -0.46728250476164773
+     ],
+     [
+      36,
+      0.6832482496664269
+     ],
+     [
+      38,
+      -0.6085234559046248
+     ],
+     [
+      40,
+      1.2067114183046665
+     ],
+     [
+      42,
+      0.07503036328043183
+     ],
+     [
+      44,
+      0.26083700291475354
+     ],
+     [
+      46,
+      -0.23870629053194217
+     ],
+     [
+      48,
+      0.8339751629010221
+     ],
+     [
+      50,
+      1.734767093841093
+     ],
+     [
+      52,
+      0.44558515147043826
+     ],
+     [
+      54,
+      1.1269755137034414
+     ],
+     [
+      56,
+      -0.5442973222079039
+     ],
+     [
+      58,
+      1.8581180621480429
+     ],
+     [
+      60,
+      0.7362413364613625
+     ],
+     [
+      62,
+      -0.3372736235438176
+     ],
+     [
+      64,
+      -0.1644028413731796
+     ],
+     [
+      66,
+      0.17556155321775888
+     ],
+     [
+      68,
+      0.28733363359162006
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 17,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     0.041331207408884706,
+     0.06601629708823889
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.053944436419924
+     ],
+     [
+      22,
+      -0.9246619937591936
+     ],
+     [
+      24,
+      10.196624321617579
+     ],
+     [
+      26,
+      2.2126057178892675
+     ],
+     [
+      28,
+      0.9651095687506376
+     ],
+     [
+      30,
+      -0.14580386436428458
+     ],
+     [
+      32,
+      -0.17094764477078478
+     ],
+     [
+      34,
+      -0.324000780510834
+     ],
+     [
+      36,
+      -0.43887532409376373
+     ],
+     [
+      38,
+      -0.4695825691267818
+     ],
+     [
+      40,
+      0.3516368066960992
+     ],
+     [
+      42,
+      -0.8100294103163087
+     ],
+     [
+      44,
+      1.2581636899708695
+     ],
+     [
+      46,
+      0.20056354145805805
+     ],
+     [
+      48,
+      1.825141531885953
+     ],
+     [
+      50,
+      -0.16817618602269147
+     ],
+     [
+      52,
+      -0.6060486922444849
+     ],
+     [
+      54,
+      0.9988506564097562
+     ],
+     [
+      56,
+      1.066828322556395
+     ],
+     [
+      58,
+      1.888876995865318
+     ],
+     [
+      60,
+      -0.08173787465671992
+     ],
+     [
+      62,
+      2.41212512501584
+     ],
+     [
+      64,
+      -0.4180887811661265
+     ],
+     [
+      66,
+      -0.7188764210747728
+     ],
+     [
+      68,
+      -0.4853342114981077
+     ],
+     [
+      70,
+      0.20152972341023406
+     ],
+     [
+      72,
+      0.2815829647604085
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 18,
+    "success": true,
+    "steps": 74,
+    "perturbed": true,
+    "perturb_step": 24,
+    "perturb_delta": [
+     -0.01302035130764881,
+     -0.06270359994393039
+    ],
+    "trigger_step": 24,
+    "trigger_latency": 0,
+    "n_replans": 1,
+    "replan_steps": [
+     24
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.8288205835892395
+     ],
+     [
+      22,
+      -0.8465066443928094
+     ],
+     [
+      24,
+      8.913005345651289
+     ],
+     [
+      26,
+      1.9493445605424982
+     ],
+     [
+      28,
+      1.0261245541908017
+     ],
+     [
+      30,
+      0.005729131684468644
+     ],
+     [
+      32,
+      -0.08737586424386384
+     ],
+     [
+      34,
+      -0.34691439424263826
+     ],
+     [
+      36,
+      -0.48079780429386126
+     ],
+     [
+      38,
+      -0.1636004147965196
+     ],
+     [
+      40,
+      0.8550337238881652
+     ],
+     [
+      42,
+      -0.2899329271095175
+     ],
+     [
+      44,
+      0.9912113484451237
+     ],
+     [
+      46,
+      -1.4114647727991774
+     ],
+     [
+      48,
+      -1.1114546793783526
+     ],
+     [
+      50,
+      0.3256726671898505
+     ],
+     [
+      52,
+      0.1275190871162824
+     ],
+     [
+      54,
+      1.4464546522516988
+     ],
+     [
+      56,
+      1.322519583916447
+     ],
+     [
+      58,
+      2.361189296953652
+     ],
+     [
+      60,
+      -1.4332188331181004
+     ],
+     [
+      62,
+      -0.12405275360031548
+     ],
+     [
+      64,
+      -0.23698428138342653
+     ],
+     [
+      66,
+      -0.9754815373238876
+     ],
+     [
+      68,
+      -0.04577523673332041
+     ],
+     [
+      70,
+      0.42941950594490763
+     ],
+     [
+      72,
+      0.3123147988357059
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 19,
+    "success": true,
+    "steps": 73,
+    "perturbed": true,
+    "perturb_step": 21,
+    "perturb_delta": [
+     0.05690842398743194,
+     -0.028605823610527374
+    ],
+    "trigger_step": 22,
+    "trigger_latency": 1,
+    "n_replans": 1,
+    "replan_steps": [
+     22
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.224770600335249
+     ],
+     [
+      22,
+      11.36931872682365
+     ],
+     [
+      24,
+      2.150825748574898
+     ],
+     [
+      26,
+      0.8000820485654028
+     ],
+     [
+      28,
+      -0.36396587276432146
+     ],
+     [
+      30,
+      -0.4637415120299177
+     ],
+     [
+      32,
+      -0.2789608004793849
+     ],
+     [
+      34,
+      0.007776576725865851
+     ],
+     [
+      36,
+      -0.5454131724726491
+     ],
+     [
+      38,
+      -0.23847637222968363
+     ],
+     [
+      40,
+      -0.8079376888702337
+     ],
+     [
+      42,
+      0.28929227312492306
+     ],
+     [
+      44,
+      0.6454411579069311
+     ],
+     [
+      46,
+      -2.222521210532078
+     ],
+     [
+      48,
+      -0.7429596898838261
+     ],
+     [
+      50,
+      -0.5303580292571768
+     ],
+     [
+      52,
+      0.6761697898179205
+     ],
+     [
+      54,
+      -0.17892275379843672
+     ],
+     [
+      56,
+      0.20833463041913503
+     ],
+     [
+      58,
+      -1.8129617236267206
+     ],
+     [
+      60,
+      -0.3388766263724457
+     ],
+     [
+      62,
+      1.3946434749345031
+     ],
+     [
+      64,
+      -0.4681902498370228
+     ],
+     [
+      66,
+      -0.21285439329653494
+     ],
+     [
+      68,
+      -0.9350911198065894
+     ],
+     [
+      70,
+      0.3425101502213255
+     ],
+     [
+      72,
+      0.7751246391516233
+     ]
+    ]
+   }
+  ],
+  "clean": [
+   {
+    "condition": "jepa",
+    "seed": 1000,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.4444926811713354
+     ],
+     [
+      22,
+      0.7596067945889019
+     ],
+     [
+      24,
+      -1.4412100264639425
+     ],
+     [
+      26,
+      0.22208427520383747
+     ],
+     [
+      28,
+      -0.30856988856630096
+     ],
+     [
+      30,
+      0.1986582246630908
+     ],
+     [
+      32,
+      1.3090211005461962
+     ],
+     [
+      34,
+      0.7770994737103211
+     ],
+     [
+      36,
+      1.3450915499179623
+     ],
+     [
+      38,
+      -2.0629982779331058
+     ],
+     [
+      40,
+      0.6370890129337741
+     ],
+     [
+      42,
+      0.08861959620123723
+     ],
+     [
+      44,
+      -1.2838018719405118
+     ],
+     [
+      46,
+      -1.235909826131729
+     ],
+     [
+      48,
+      0.13713500056467762
+     ],
+     [
+      50,
+      0.38362303634244865
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1001,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.5474296311655225
+     ],
+     [
+      22,
+      0.9564616312806078
+     ],
+     [
+      24,
+      0.3849485380886722
+     ],
+     [
+      26,
+      0.34398421007937763
+     ],
+     [
+      28,
+      0.10553086238132246
+     ],
+     [
+      30,
+      1.2122004380700755
+     ],
+     [
+      32,
+      -0.15742123731379581
+     ],
+     [
+      34,
+      0.23694355211492907
+     ],
+     [
+      36,
+      0.687657886141768
+     ],
+     [
+      38,
+      -0.3677159087167901
+     ],
+     [
+      40,
+      2.208508945927805
+     ],
+     [
+      42,
+      0.7151705972154432
+     ],
+     [
+      44,
+      -0.4654760208587558
+     ],
+     [
+      46,
+      0.7904968652878207
+     ],
+     [
+      48,
+      -0.45177194132699244
+     ],
+     [
+      50,
+      0.7124090847246459
+     ],
+     [
+      52,
+      0.5554475777917607
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1002,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.3458749597528643
+     ],
+     [
+      22,
+      0.7458329647382026
+     ],
+     [
+      24,
+      0.03409965047516584
+     ],
+     [
+      26,
+      -0.5995749581330689
+     ],
+     [
+      28,
+      -1.0975059088711838
+     ],
+     [
+      30,
+      -0.3236659357757792
+     ],
+     [
+      32,
+      1.1380080923014793
+     ],
+     [
+      34,
+      0.7289609544001893
+     ],
+     [
+      36,
+      1.6576753757783125
+     ],
+     [
+      38,
+      -2.0187626458849905
+     ],
+     [
+      40,
+      -0.31745510935549914
+     ],
+     [
+      42,
+      -0.9923807722927872
+     ],
+     [
+      44,
+      -2.0367205649672733
+     ],
+     [
+      46,
+      -1.6853479306849044
+     ],
+     [
+      48,
+      0.7770499288041411
+     ],
+     [
+      50,
+      0.7232395390235681
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1003,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.6379696592097304
+     ],
+     [
+      22,
+      0.04347549113212955
+     ],
+     [
+      24,
+      -0.5636823240315822
+     ],
+     [
+      26,
+      -1.3024744769041023
+     ],
+     [
+      28,
+      -0.47624956897979015
+     ],
+     [
+      30,
+      -0.3992360899428704
+     ],
+     [
+      32,
+      1.4946125003164803
+     ],
+     [
+      34,
+      0.660251761250207
+     ],
+     [
+      36,
+      1.2126984468283497
+     ],
+     [
+      38,
+      -2.0414044457727716
+     ],
+     [
+      40,
+      -0.019082935495139636
+     ],
+     [
+      42,
+      0.5100842465870734
+     ],
+     [
+      44,
+      -0.8199103062491578
+     ],
+     [
+      46,
+      0.36129214963041956
+     ],
+     [
+      48,
+      0.25023372758973567
+     ],
+     [
+      50,
+      0.39169995683641734
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1004,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      1.601187238213229
+     ],
+     [
+      22,
+      -0.8456564598575873
+     ],
+     [
+      24,
+      -0.11688023715207446
+     ],
+     [
+      26,
+      0.04214322294723475
+     ],
+     [
+      28,
+      -0.6452817291524828
+     ],
+     [
+      30,
+      0.8144833247264015
+     ],
+     [
+      32,
+      0.15376955583871627
+     ],
+     [
+      34,
+      0.45745323666789695
+     ],
+     [
+      36,
+      -0.7661457958699378
+     ],
+     [
+      38,
+      1.0617579494779887
+     ],
+     [
+      40,
+      -0.5750747299423888
+     ],
+     [
+      42,
+      -1.3867001237729177
+     ],
+     [
+      44,
+      -1.3462801761369556
+     ],
+     [
+      46,
+      -1.2183658117459035
+     ],
+     [
+      48,
+      1.6479917753064355
+     ],
+     [
+      50,
+      1.6081296554560798
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1005,
+    "success": true,
+    "steps": 56,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 2,
+    "replan_steps": [
+     28,
+     44
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.21360238421022898
+     ],
+     [
+      22,
+      -0.91356757579627
+     ],
+     [
+      24,
+      -0.27571067555348294
+     ],
+     [
+      26,
+      1.7158494393390253
+     ],
+     [
+      28,
+      3.4213532984314314
+     ],
+     [
+      30,
+      2.8400187497051212
+     ],
+     [
+      32,
+      1.9957432251747897
+     ],
+     [
+      34,
+      -0.7026578324395968
+     ],
+     [
+      36,
+      0.23562249862858112
+     ],
+     [
+      38,
+      0.8173366563362668
+     ],
+     [
+      40,
+      1.6219470731511225
+     ],
+     [
+      42,
+      0.12249224459403557
+     ],
+     [
+      44,
+      2.7140459146848146
+     ],
+     [
+      46,
+      0.49296061701464916
+     ],
+     [
+      48,
+      -1.4172276769708319
+     ],
+     [
+      50,
+      -1.0007139669839213
+     ],
+     [
+      52,
+      0.6400500019494477
+     ],
+     [
+      54,
+      0.7626522566208274
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1006,
+    "success": true,
+    "steps": 57,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 1,
+    "replan_steps": [
+     30
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.0198596385150633
+     ],
+     [
+      22,
+      -1.3050096235412556
+     ],
+     [
+      24,
+      -1.403562398585465
+     ],
+     [
+      26,
+      -0.7356409002396416
+     ],
+     [
+      28,
+      0.6850132832399913
+     ],
+     [
+      30,
+      2.9231383179633386
+     ],
+     [
+      32,
+      3.321206760867491
+     ],
+     [
+      34,
+      1.1245692049811222
+     ],
+     [
+      36,
+      -0.45213853502716334
+     ],
+     [
+      38,
+      0.3717413299460833
+     ],
+     [
+      40,
+      1.1420247161936843
+     ],
+     [
+      42,
+      -1.3519542423110977
+     ],
+     [
+      44,
+      -0.6647943125022686
+     ],
+     [
+      46,
+      -0.5207321172899306
+     ],
+     [
+      48,
+      -0.9138271855692212
+     ],
+     [
+      50,
+      -0.590037240894306
+     ],
+     [
+      52,
+      -1.1786047018206978
+     ],
+     [
+      54,
+      1.0653312541142654
+     ],
+     [
+      56,
+      1.2847795543272247
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1007,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.5349231163516545
+     ],
+     [
+      22,
+      0.6892641788921539
+     ],
+     [
+      24,
+      -0.2889032425011885
+     ],
+     [
+      26,
+      -1.571019362167587
+     ],
+     [
+      28,
+      -0.39994709198215006
+     ],
+     [
+      30,
+      0.38448282543754564
+     ],
+     [
+      32,
+      -0.011599843439065977
+     ],
+     [
+      34,
+      0.22770710178937512
+     ],
+     [
+      36,
+      -0.0224507429510503
+     ],
+     [
+      38,
+      1.4754504649371436
+     ],
+     [
+      40,
+      -0.20630369278540736
+     ],
+     [
+      42,
+      -1.0321192511032016
+     ],
+     [
+      44,
+      -0.979444741402781
+     ],
+     [
+      46,
+      -0.8838315842021891
+     ],
+     [
+      48,
+      1.550359205821586
+     ],
+     [
+      50,
+      1.3773412983892852
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1008,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.4711201500654
+     ],
+     [
+      22,
+      -0.07474638016928653
+     ],
+     [
+      24,
+      -0.9472906286044139
+     ],
+     [
+      26,
+      -1.777401284487499
+     ],
+     [
+      28,
+      -0.028096733402570653
+     ],
+     [
+      30,
+      1.2166351626540572
+     ],
+     [
+      32,
+      0.5130055966322631
+     ],
+     [
+      34,
+      0.4391778924055668
+     ],
+     [
+      36,
+      1.207923095421475
+     ],
+     [
+      38,
+      -1.5778154078326316
+     ],
+     [
+      40,
+      -0.28201494786432635
+     ],
+     [
+      42,
+      -0.7359050483342106
+     ],
+     [
+      44,
+      -1.5479181891616347
+     ],
+     [
+      46,
+      -1.747804843528638
+     ],
+     [
+      48,
+      -0.09993322798650758
+     ],
+     [
+      50,
+      0.1115607923473468
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1009,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.7464394390442177
+     ],
+     [
+      22,
+      1.0099084050525047
+     ],
+     [
+      24,
+      0.2447297176510722
+     ],
+     [
+      26,
+      0.4132603317053406
+     ],
+     [
+      28,
+      1.4911134675074593
+     ],
+     [
+      30,
+      0.4299693431238757
+     ],
+     [
+      32,
+      0.46523879611958996
+     ],
+     [
+      34,
+      0.4353379475278818
+     ],
+     [
+      36,
+      -1.5494104745940873
+     ],
+     [
+      38,
+      0.11672824435310952
+     ],
+     [
+      40,
+      -0.05079694291858703
+     ],
+     [
+      42,
+      -1.1827155420503603
+     ],
+     [
+      44,
+      -0.5649656115124236
+     ],
+     [
+      46,
+      -0.7993514103962235
+     ],
+     [
+      48,
+      0.33377690643685337
+     ],
+     [
+      50,
+      0.4580000892348219
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1010,
+    "success": true,
+    "steps": 51,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.34423072157558704
+     ],
+     [
+      22,
+      0.46132228164154304
+     ],
+     [
+      24,
+      1.213956895406321
+     ],
+     [
+      26,
+      0.5607362449140046
+     ],
+     [
+      28,
+      1.2780909530009756
+     ],
+     [
+      30,
+      0.1079614325860048
+     ],
+     [
+      32,
+      -0.01825703430741439
+     ],
+     [
+      34,
+      0.47366756241846647
+     ],
+     [
+      36,
+      -0.5011840861081237
+     ],
+     [
+      38,
+      2.2540275202152196
+     ],
+     [
+      40,
+      0.29295366607066375
+     ],
+     [
+      42,
+      -0.8375549439814902
+     ],
+     [
+      44,
+      -0.2871388769111758
+     ],
+     [
+      46,
+      -1.326304153876874
+     ],
+     [
+      48,
+      0.7005045450407531
+     ],
+     [
+      50,
+      0.9498463551260374
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1011,
+    "success": true,
+    "steps": 57,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 1,
+    "replan_steps": [
+     30
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.5031095986624115
+     ],
+     [
+      22,
+      1.296993452524351
+     ],
+     [
+      24,
+      -0.7253490452728998
+     ],
+     [
+      26,
+      -1.219472935623602
+     ],
+     [
+      28,
+      0.1343306164313113
+     ],
+     [
+      30,
+      5.170357133658438
+     ],
+     [
+      32,
+      3.2839936371845133
+     ],
+     [
+      34,
+      1.1148302383257476
+     ],
+     [
+      36,
+      0.23388666077618872
+     ],
+     [
+      38,
+      0.3619094538534224
+     ],
+     [
+      40,
+      0.571933947930376
+     ],
+     [
+      42,
+      -1.6533164058554086
+     ],
+     [
+      44,
+      -0.04199912691142641
+     ],
+     [
+      46,
+      0.7027902052968354
+     ],
+     [
+      48,
+      -0.731991039014109
+     ],
+     [
+      50,
+      -1.5970930019932124
+     ],
+     [
+      52,
+      -1.2762145582143303
+     ],
+     [
+      54,
+      1.0517545460468884
+     ],
+     [
+      56,
+      1.1446041315520536
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1012,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.6878994025484004
+     ],
+     [
+      22,
+      -0.13618236743196943
+     ],
+     [
+      24,
+      0.19987442977547273
+     ],
+     [
+      26,
+      0.2417421663930346
+     ],
+     [
+      28,
+      -0.6099300032463937
+     ],
+     [
+      30,
+      1.1606745745090294
+     ],
+     [
+      32,
+      0.8630013255171664
+     ],
+     [
+      34,
+      0.6143332244297826
+     ],
+     [
+      36,
+      1.5980675595159757
+     ],
+     [
+      38,
+      -1.879109575224526
+     ],
+     [
+      40,
+      -0.4376523796458431
+     ],
+     [
+      42,
+      -0.6410196612713478
+     ],
+     [
+      44,
+      -1.1964117804850394
+     ],
+     [
+      46,
+      -1.3871419821951638
+     ],
+     [
+      48,
+      0.822104954689342
+     ],
+     [
+      50,
+      0.7130217277961568
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1013,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.576441641777474
+     ],
+     [
+      22,
+      -0.8756328180500488
+     ],
+     [
+      24,
+      0.33804412340083223
+     ],
+     [
+      26,
+      -2.238177491808376
+     ],
+     [
+      28,
+      -1.6173003110764237
+     ],
+     [
+      30,
+      -0.9695848692200232
+     ],
+     [
+      32,
+      -1.247995469576195
+     ],
+     [
+      34,
+      -0.2601928578069866
+     ],
+     [
+      36,
+      0.5755772552862077
+     ],
+     [
+      38,
+      0.21192648122719215
+     ],
+     [
+      40,
+      2.072135489946586
+     ],
+     [
+      42,
+      -0.41308374980819773
+     ],
+     [
+      44,
+      -1.4038314910902912
+     ],
+     [
+      46,
+      -0.8863591030931496
+     ],
+     [
+      48,
+      -0.7154665360497864
+     ],
+     [
+      50,
+      0.07505364931730359
+     ],
+     [
+      52,
+      0.5732478270340327
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1014,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.863053087294926
+     ],
+     [
+      22,
+      -0.3329867813176325
+     ],
+     [
+      24,
+      -1.6983677379158688
+     ],
+     [
+      26,
+      -0.3169313194934952
+     ],
+     [
+      28,
+      -0.09340324405088125
+     ],
+     [
+      30,
+      1.144457795271534
+     ],
+     [
+      32,
+      1.067078268143741
+     ],
+     [
+      34,
+      0.7423561964262463
+     ],
+     [
+      36,
+      1.5176896752911617
+     ],
+     [
+      38,
+      -1.11033450903357
+     ],
+     [
+      40,
+      -0.2621951440518497
+     ],
+     [
+      42,
+      -1.4035443347777345
+     ],
+     [
+      44,
+      -1.8032276630064898
+     ],
+     [
+      46,
+      -2.0376063431422695
+     ],
+     [
+      48,
+      1.505149059158681
+     ],
+     [
+      50,
+      1.2412706961937987
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1015,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -1.6203760844005355
+     ],
+     [
+      22,
+      0.16866831536896668
+     ],
+     [
+      24,
+      0.446937775584325
+     ],
+     [
+      26,
+      0.0343083448668431
+     ],
+     [
+      28,
+      0.0235246102237242
+     ],
+     [
+      30,
+      -0.19872609893859955
+     ],
+     [
+      32,
+      1.489557918526621
+     ],
+     [
+      34,
+      1.2492757824938217
+     ],
+     [
+      36,
+      2.082225892995579
+     ],
+     [
+      38,
+      -0.6614693946923833
+     ],
+     [
+      40,
+      -0.7970323736828974
+     ],
+     [
+      42,
+      -1.212045464280037
+     ],
+     [
+      44,
+      -2.3353889225092965
+     ],
+     [
+      46,
+      -2.689953421131514
+     ],
+     [
+      48,
+      1.368115252134128
+     ],
+     [
+      50,
+      1.1554614659857405
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1016,
+    "success": true,
+    "steps": 52,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.6877728314643856
+     ],
+     [
+      22,
+      -1.6022296550277104
+     ],
+     [
+      24,
+      -2.1372842581836786
+     ],
+     [
+      26,
+      -0.9345882833821247
+     ],
+     [
+      28,
+      -0.6151304223342152
+     ],
+     [
+      30,
+      0.6810151713815645
+     ],
+     [
+      32,
+      1.6535192956680533
+     ],
+     [
+      34,
+      0.9990425906655834
+     ],
+     [
+      36,
+      1.5301513485218783
+     ],
+     [
+      38,
+      -0.27698974518771935
+     ],
+     [
+      40,
+      0.2678610189500745
+     ],
+     [
+      42,
+      -1.3331321453648113
+     ],
+     [
+      44,
+      -2.182796723239982
+     ],
+     [
+      46,
+      -2.6588659973317132
+     ],
+     [
+      48,
+      1.3426849646383494
+     ],
+     [
+      50,
+      1.094172518711116
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1017,
+    "success": true,
+    "steps": 59,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 1,
+    "replan_steps": [
+     32
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      0.7037270111184117
+     ],
+     [
+      22,
+      -1.8854483962958666
+     ],
+     [
+      24,
+      0.6278842169695186
+     ],
+     [
+      26,
+      0.2940712346309822
+     ],
+     [
+      28,
+      -0.7207955857605322
+     ],
+     [
+      30,
+      1.0483028806295474
+     ],
+     [
+      32,
+      5.98583475812063
+     ],
+     [
+      34,
+      4.3044419329808505
+     ],
+     [
+      36,
+      1.0864392872735715
+     ],
+     [
+      38,
+      0.13777160674396607
+     ],
+     [
+      40,
+      0.27240722106784926
+     ],
+     [
+      42,
+      0.7407527736429105
+     ],
+     [
+      44,
+      -1.3098715154671978
+     ],
+     [
+      46,
+      -1.0482563181946118
+     ],
+     [
+      48,
+      -1.459307683377797
+     ],
+     [
+      50,
+      -1.8531477245458008
+     ],
+     [
+      52,
+      -1.4783763961840886
+     ],
+     [
+      54,
+      -1.3431921657343
+     ],
+     [
+      56,
+      0.8355307420000715
+     ],
+     [
+      58,
+      1.0443305888265777
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1018,
+    "success": true,
+    "steps": 53,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 0,
+    "replan_steps": [],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -0.9783642697243781
+     ],
+     [
+      22,
+      -0.6824868588694932
+     ],
+     [
+      24,
+      0.22474547885609786
+     ],
+     [
+      26,
+      0.28892250588060897
+     ],
+     [
+      28,
+      -0.9560749034827843
+     ],
+     [
+      30,
+      -0.6348716210675924
+     ],
+     [
+      32,
+      -0.780394364397818
+     ],
+     [
+      34,
+      0.05559138155156334
+     ],
+     [
+      36,
+      0.7795767389389018
+     ],
+     [
+      38,
+      -0.7491219483588418
+     ],
+     [
+      40,
+      -0.31366361433042556
+     ],
+     [
+      42,
+      -1.3007131434015544
+     ],
+     [
+      44,
+      -1.726738334685464
+     ],
+     [
+      46,
+      -1.805072303579857
+     ],
+     [
+      48,
+      -1.503811300872036
+     ],
+     [
+      50,
+      1.753037101955444
+     ],
+     [
+      52,
+      2.01248472270662
+     ]
+    ]
+   },
+   {
+    "condition": "jepa",
+    "seed": 1019,
+    "success": true,
+    "steps": 57,
+    "perturbed": false,
+    "perturb_step": null,
+    "perturb_delta": null,
+    "trigger_step": null,
+    "trigger_latency": null,
+    "n_replans": 1,
+    "replan_steps": [
+     30
+    ],
+    "final_state": "LIFT",
+    "z_log": [
+     [
+      20,
+      -2.003560692093454
+     ],
+     [
+      22,
+      -0.435948750623587
+     ],
+     [
+      24,
+      -1.2502014340062024
+     ],
+     [
+      26,
+      -0.6183252388134951
+     ],
+     [
+      28,
+      1.0965425613623712
+     ],
+     [
+      30,
+      3.159951127562487
+     ],
+     [
+      32,
+      4.569500156056991
+     ],
+     [
+      34,
+      4.6038358999095585
+     ],
+     [
+      36,
+      0.4009990227437337
+     ],
+     [
+      38,
+      -0.03450995246881491
+     ],
+     [
+      40,
+      0.2335207728209887
+     ],
+     [
+      42,
+      -1.4126201338370512
+     ],
+     [
+      44,
+      -0.7046772292184001
+     ],
+     [
+      46,
+      -0.9845076168070476
+     ],
+     [
+      48,
+      -1.6024821872945818
+     ],
+     [
+      50,
+      -1.9128082189748468
+     ],
+     [
+      52,
+      -1.3262869046337746
+     ],
+     [
+      54,
+      0.7103765545344733
+     ],
+     [
+      56,
+      1.145577416431657
+     ]
+    ]
+   }
+  ]
+ }
+}
