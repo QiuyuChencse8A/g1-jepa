@@ -137,7 +137,7 @@ class ScriptedPickPlace:
 
 def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
                 fixed_period=20, collect_images=False, jepa_trigger=None,
-                debug=False, policy_kwargs=None):
+                debug=False, policy_kwargs=None, observe_only=False):
     env.placement_initializer.rng = np.random.default_rng(seed)   # 替换掉 np.random.seed(seed)
     rng = np.random.default_rng(seed)
     env.deterministic_reset = False
@@ -176,6 +176,8 @@ def run_episode(env, condition, seed=0, perturb=True, max_steps=300,
             do_replan = fired
         elif condition == "jepa":
             do_replan = bool(jepa_trigger(t, env, policy)) if jepa_trigger else False
+            if observe_only:
+                do_replan = False
         else:
             raise ValueError(condition)
 
@@ -235,11 +237,14 @@ def main():
     ap.add_argument("--consec", type=int, default=2)
     ap.add_argument("--seed0", type=int, default=0, help="perturbed 起始 seed")
     ap.add_argument("--device", default="cuda:5")
+    ap.add_argument("--observe-only", action="store_true",
+                    help="跑触发器但不重规划，用于采集部署匹配的标定数据")
+    ap.add_argument("--conds", default=None,
+                    help="逗号分隔，只跑指定条件，例如 jepa")
     args = ap.parse_args()
 
 
     env = make_env(use_camera_obs=False)
-    trig = None
     conds = ["no_replan", "fixed", "oracle"]
     if args.jepa:
         from jepa_trigger import OnlineJepaTrigger
@@ -281,10 +286,17 @@ def main():
     print(f"{'cond':<12s}{'SR_pert':>10s}{'SR_clean':>12s}"
           f"{'latency':>10s}{'replans':>12s}{'replans_clean':>14s}{'steps':>12s}")
     print("-" * 80)
+
+    if args.conds:
+        conds = [c.strip() for c in args.conds.split(",")]
+
+    
     for cond in conds:
-        rp = [run_episode(env, cond, seed=args.seed0 + s, perturb=True, policy_kwargs=pk, jepa_trigger=trig)
+        rp = [run_episode(env, cond, seed=args.seed0 + s, perturb=True, policy_kwargs=pk, jepa_trigger=trig,
+                          observe_only=args.observe_only)
               for s in range(args.n)]
-        rc = [run_episode(env, cond, seed=args.seed0 + 10000 + s, perturb=False, policy_kwargs=pk, jepa_trigger=trig)
+        rc = [run_episode(env, cond, seed=args.seed0 + 10000 + s, perturb=False, policy_kwargs=pk, jepa_trigger=trig,
+                          observe_only=args.observe_only)
               for s in range(args.n)]
         fired = [r for r in rp if r["perturbed"]]
         sr_p = np.mean([r["success"] for r in fired]) if fired else float("nan")

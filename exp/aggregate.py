@@ -1,5 +1,5 @@
 import json, numpy as np
-RUNS = [f"results/final_run{i}.json" for i in range(1, 6)]
+vB_run = [f"results/vB_run{i}.json" for i in range(1, 6)]
 
 def stats(rp, rc):
     fired = [r for r in rp if r["perturbed"]]
@@ -18,7 +18,7 @@ def stats(rp, rc):
     )
 
 acc = {}
-for f in RUNS:
+for f in vB_run:
     d = json.load(open(f))
     for cond in ["fixed", "oracle", "jepa"]:
         acc.setdefault(cond, []).append(stats(d[cond]["perturbed"], d[cond]["clean"]))

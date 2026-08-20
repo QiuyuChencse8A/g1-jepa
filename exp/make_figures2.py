@@ -56,7 +56,7 @@ def load(run_paths):
             win = [x for x in r["dbg_log"] if p <= x[0] <= p + 8]
             if not win:
                 continue
-            t, b, fb, err, mu, sd, z = max(win, key=lambda x: x[6])
+            t, b, fb, err, mu, sd, z = max(win, key=lambda x: x[3])
             L = r["trigger_latency"]
             recs.append(dict(run=ri, seed=r["seed"], perturb_step=p, bucket=int(b),
                              fallback=bool(fb), err=float(err), mu=float(mu),
@@ -197,7 +197,7 @@ def fig_latency_bimodal(lats, outdir):
                                gridspec_kw={"width_ratios": [2, 1.15], "wspace": .08})
     a.hist(fast, bins=np.arange(0, 31, 1), color=C_OK)
     a.set_xlim(0, 30)
-    a.set_ylabel(f"episodes (100 scenarios × {len(...)} runs)")
+    a.set_ylabel(f"episodes ({n} = 100 scenarios × 5 runs)")
     a.set_title("fast population", fontsize=9, color="#444")
 
     GAP_LO, GAP_HI = 6, 30
